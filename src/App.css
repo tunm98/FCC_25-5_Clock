@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+.length-part {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.part {
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.part i {
+  margin: 0 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+span {
+  font-size: 30px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.timer-warning {
+  color: red;
+}
+.control-part {
+  display: flex;
+  justify-content: center;
+}
+.control-part i {
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
